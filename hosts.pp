@@ -1,6 +1,6 @@
-host {'puppetnew':
-        name             => 'puppetnew',
+host {'tux':
+        name             => 'tux',
         ensure           => present,
-        host_aliases     => 'puppetnew.devops.com',
-        ip               => '192.168.56.10',
+        host_aliases     => 'tux.devops.com',
+        ip               => '192.168.1.13',
 }
