@@ -1,3 +1,4 @@
-notify {'ip':
-	message => "o meu ip  ${::ipaddress}",
-}
+$ip = $ipaddress
+$curitem = split($ip, ',')
+
+  notify { "$curitem" :}
