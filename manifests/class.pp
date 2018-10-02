@@ -1,4 +1,4 @@
-new_dir {
+class new_dir {
   file {'/tmp/teste':
   ensure  => present,
        }
